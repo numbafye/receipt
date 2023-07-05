@@ -29,11 +29,20 @@
       body {
         font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial,
           sans-serif;
+        background-color: ;
       }
 
-      table,
-      td {
-        border: 2px solid #000000 !important;
+      body,
+      table {
+        background-color: #ffffff;
+      }
+
+      .list-items {
+        line-height: 0;
+      }
+
+      .list-items td {
+        padding: 0 5px;
       }
 
       /* Custom Dark Mode Colors */
@@ -43,7 +52,6 @@
       }
       @media (prefers-color-scheme: dark) {
         body,
-        center,
         table {
           background: #2d2d2d !important;
           color: #ffffff !important;
@@ -90,7 +98,7 @@
           style="
             width: 600px;
             border-collapse: collapse;
-            border: 1px solid #cccccc;
+            border: 0;
             border-spacing: 0;
           "
           cellspacing="0"
@@ -142,7 +150,7 @@
                 style="
                   width: 100%;
                   border-collapse: collapse;
-                  border: 1px solid #cccccc;
+                  border: 0;
                   border-spacing: 0;
                 "
                 cellspacing="0"
@@ -161,7 +169,7 @@
                         >fakeemail@gmail.com</a
                       >
                     </p>
-                    <p>555-555-5555</p>
+                    <p>15555555555</p>
                   </td>
                 </tr>
               </table>
@@ -171,7 +179,7 @@
             <td
               style="
                 text-align: left;
-                border-bottom: black 1px solid;
+                border-bottom: black 3px solid;
                 padding-bottom: 15px;
               "
             >
@@ -188,12 +196,14 @@
           </tr>
         </table>
         <!-- END ORDER CONFIRMATION -->
+        <!-- START PRICING -->
         <table
+          class="list-items"
           role="presentation"
           style="
             width: 602px;
             border-collapse: collapse;
-            border: 1px solid #cccccc;
+            border: 0;
             border-spacing: 0;
           "
           cellspacing="0"
@@ -206,18 +216,122 @@
             <td>
               <ul>
                 <li>1 x Grilled Adobo Chicken</li>
-                <li>1 x</li>
-                <li>1 x</li>
-                <li>1 x</li>
-                <li>1 x</li>
-                <li>1 x</li>
-                <li>1 x</li>
-                <li>1 x</li>
-                <li>1 x</li>
+              </ul>
+            </td>
+            <td width="20%"><p>(1 x $11.45)</p></td>
+            <td width="12%"><p>=</p></td>
+            <td width="5%"><p>$11.45</p></td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Warm Flour Tortilla</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Half Cilantro and Half Brown Rice</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Black Beans</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Pico de Gallo (Mild)</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Shredded Cheese</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Chips on the Side</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Roasted Tomato Salsa (Mild) on the Side</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>1 x Chocolate Chunk Cookie</li>
               </ul>
             </td>
           </tr>
         </table>
+        <table
+          role="presentation"
+          style="
+            width: 602px;
+            border-collapse: collapse;
+            border-bottom: 1px solid #000000;
+            border-spacing: 0;
+            line-height: 0;
+          "
+          cellspacing="0"
+          cellpadding="0"
+        >
+          <tr>
+            <td width="45%">
+              <p>SUBTOTAL</p>
+              <p>TAX</p>
+              <br />
+              <p><strong>TOTAL</strong></p>
+            </td>
+            <td width="55%">
+              <p>$11.45</p>
+              <p>$0.76</p>
+              <br />
+              <p><strong>$12.21</strong></p>
+            </td>
+          </tr>
+        </table>
+        <!-- END PRICING -->
+        <!-- START FOOTER IMG -->
+        <table
+          role="presentation"
+          style="
+            width: 602px;
+            border-collapse: collapse;
+            border: 0;
+            border-spacing: 0;
+            line-height: 0;
+          "
+          cellspacing="0"
+          cellpadding="0"
+        >
+          <tr>
+            <td style="padding: 0" align="center">
+              <img
+                src="assets\qdoba fbanner.png"
+                alt="Qdoba banner"
+                width="100%"
+                style="height: auto; display: block"
+              />
+            </td>
+          </tr>
+        </table>
+        <!-- END FOOTER IMG -->
       </td>
     </tr>
   </table>
