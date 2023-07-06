@@ -14,9 +14,10 @@
       a {
         text-decoration: none;
       }
-      p,
-      ul {
-        font-size: 12px;
+
+      p.bullet {
+        margin: 10px 20px 10px 20px;
+        text-indent: 15px;
       }
       .banner {
         padding-bottom: 15px;
@@ -27,9 +28,7 @@
       }
 
       body {
-        font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial,
-          sans-serif;
-        background-color: ;
+        font-family: Arial, Helvetica, sans-serif;
       }
 
       body,
@@ -37,9 +36,8 @@
         background-color: #ffffff;
       }
 
-      table,
-      td {
-        border: 1px solid black !important;
+      span {
+        font-size: 1rem;
       }
 
       .list-items {
@@ -48,6 +46,7 @@
 
       .list-items td {
         padding: 0 5px;
+        width: 60%;
       }
 
       /* Custom Dark Mode Colors */
@@ -69,7 +68,8 @@
 
     <!--[if mso]>
       <style type="text/css">
-        table {
+        table,
+        td {
           border-collapse: collapse !important;
         }
       </style>
@@ -84,202 +84,285 @@
   </head>
 </html>
 <body class="body" xml:lang="en" style="margin: 0; padding: 0">
-  <table
-    role="presentation"
+  <div
     class="darkmode-transparent"
-    style="
-      width: 100%;
-      border-collapse: collapse;
-      border: 0;
-      border-spacing: 0;
-      background: #ffffff;
-    "
-    align="center"
+    role="article"
+    aria-roledescription="email"
+    aria-label="email name"
+    lang="en"
+    dir="ltr"
+    style="font-size: 12px; width: 100%"
   >
-    <tr>
-      <td align="center" style="padding: 0">
-        <!-- START ORDER CONFIRMATION -->
-        <table
-          role="presentation"
-          class="darkmode-transparent"
-          style="
-            width: 600px;
-            border-collapse: collapse;
-            border: 0;
-            border-spacing: 0;
-          "
-          cellspacing="0"
-          cellpadding="0"
-        >
-          <tr>
-            <td style="padding: 0" align="center">
-              <img
-                class="banner"
-                src="assets\qdoba hbanner.png"
-                alt="Qdoba banner"
-                width="600px"
-                style="height: auto; display: block"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td width="400" style="text-align: left; line-height: 3px">
-              <p>
-                <a
-                  href="https://www.google.com/maps/search/BERGEN+420+Bergen+Town+Center,+Paramus,%0D%0A%09%09%09%09%09%09%09NJ%C2%A007652+Bergen+Town+Center?entry=gmail&source=g"
-                  target="_blank"
-                  ><strong>BERGEN</strong></a
+    <table
+      role="presentation"
+      class="darkmode-transparent"
+      style="
+        width: 600px;
+        border-collapse: collapse;
+        border: 0;
+        border-spacing: 0;
+        background: #ffffff;
+      "
+      align="center"
+    >
+      <tr>
+        <td align="center" style="padding: 0">
+          <!-- START ORDER CONFIRMATION -->
+          <table
+            role="presentation"
+            class="order-info darkmode-transparent"
+            style="
+              width: 600px;
+              border-collapse: collapse;
+              border: 0;
+              border-spacing: 0;
+            "
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr>
+              <td style="padding: 0" align="center">
+                <img
+                  class="banner"
+                  src="https://ci3.googleusercontent.com/proxy/sAtcCv6vP-4cAPfqQZoFWFF0IAnZXmPrm5ROBk57F8QGTwObn1dnMypNLzgMKOfIC-EfRQUkIlv77cB7zJ9EcjIb5JGgkRav92163p8=s0-d-e1-ft#https://static.olocdn.net/img/qdoba/email/email-header.png"
+                  alt="Qdoba"
+                  title="logo"
+                  width="600"
+                  height="125"
+                  style="display: block"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td width="400" style="text-align: left; line-height: 3px">
+                <p>
+                  <a
+                    href="https://www.google.com/maps/search/BERGEN+420+Bergen+Town+Center,+Paramus,%0D%0A%09%09%09%09%09%09%09NJ%C2%A007652+Bergen+Town+Center?entry=gmail&source=g"
+                    target="_blank"
+                    ><strong>BERGEN</strong></a
+                  >
+                </p>
+                <p>420 Bergen Town Center, Paramus, NJ 07652</p>
+                <p>
+                  <a
+                    href="https://www.google.com/maps/search/BERGEN+420+Bergen+Town+Center,+Paramus,%0D%0A%09%09%09%09%09%09%09NJ%C2%A007652+Bergen+Town+Center?entry=gmail&source=g"
+                    target="_blank"
+                    >Bergen Town Center</a
+                  >
+                  and Forest Ave
+                </p>
+                <p>(201) 845-4230</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right; line-height: 3px">
+                <p>Order #18877003812615171</p>
+                <p>(Note: You do not need this number to pickup)</p>
+                <p style="padding: 15px 0 15px 0">
+                  Feedback on your order?
+                  <a
+                    href="https://contactus.qdoba.com/requestform.aspx"
+                    target="_blank"
+                    >Contact QDOBA Guest Relations</a
+                  >
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table
+                  class="customer-info darkmode-transparent"
+                  role="presentation"
+                  style="
+                    width: 100%;
+                    border-collapse: collapse;
+                    border: 0;
+                    border-spacing: 0;
+                  "
+                  cellspacing="0"
+                  cellpadding="0"
                 >
-              </p>
-              <p>420 Bergen Town Center, Paramus, NJ 07652</p>
-              <p>Bergen Town Center and Forest Ave</p>
-              <p>(201) 845-4230</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="text-align: right; line-height: 3px">
-              <p>Order #18877003812615171</p>
-              <p>(Note: You do not need this number to pickup)</p>
-              <p style="padding: 15px 0 15px 0">
-                Feedback on your order?
-                <a
-                  href="https://contactus.qdoba.com/requestform.aspx"
-                  target="_blank"
-                  >Contact QDOBA Guest Relations</a
-                >
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <table
-                class="darkmode-transparent"
-                role="presentation"
+                  <tr>
+                    <td style="width: 415px; line-height: 3px">
+                      <p>Customer Name:</p>
+                      <p>Customer Email:</p>
+                      <p>Customer Contact Number:</p>
+                    </td>
+                    <td style="width: 185px; line-height: 3px">
+                      <p>Saadiq Powell</p>
+                      <p>
+                        <a href="http://example.com" target="_blank"
+                          >fakeemail@gmail.com</a
+                        >
+                      </p>
+                      <p>15555555555</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td
                 style="
-                  width: 100%;
-                  border-collapse: collapse;
-                  border: 0;
-                  border-spacing: 0;
+                  text-align: left;
+                  border-bottom: black 3px solid;
+                  padding-bottom: 10px;
                 "
-                cellspacing="0"
-                cellpadding="0"
               >
-                <tr>
-                  <td style="width: 415px; line-height: 3px">
-                    <p>Customer Name:</p>
-                    <p>Customer Email:</p>
-                    <p>Customer Contact Number:</p>
-                  </td>
-                  <td style="width: 185px; line-height: 3px">
-                    <p>Saadiq Powell</p>
-                    <p>
-                      <a href="http://example.com" target="_blank"
-                        >fakeemail@gmail.com</a
-                      >
-                    </p>
-                    <p>15555555555</p>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <td
-              style="
-                text-align: left;
-                border-bottom: black 3px solid;
-                padding-bottom: 15px;
-              "
-            >
-              <p>
-                <strong>Payment Method: Credit Card Visa x-0000</strong>
-              </p>
-              <p>
-                <strong>ORDER FOR PICKUP</strong><br />
-                Order ready at <strong>7:08 PM</strong>, TODAY (WEDNESDAY,
-                1/28/2023)
-              </p>
-              <p>Thanks for your order!</p>
-            </td>
-          </tr>
-        </table>
-        <!-- END ORDER CONFIRMATION -->
-        <!-- START PRICING -->
-        <table
-          class="list-items darkmode-transparent"
-          role="presentation"
-          style="
-            width: 600px;
-            border-collapse: collapse;
-            border: 0;
-            border-spacing: 0;
-          "
-          cellspacing="0"
-          cellpadding="0"
-        >
-          <tr>
-            <td><p>1 x Burrito Meal Deal</p></td>
-          </tr>
-          <tr>
-            <td><p class="bullet">&bull;</p></td>
-          </tr>
-        </table>
-        <table
-          role="presentation"
-          class="darkmode-transparent"
-          style="
-            width: 600px;
-            border-collapse: collapse;
-            border-bottom: 1px solid #000000;
-            border-spacing: 0;
-            line-height: 0;
-          "
-          cellspacing="0"
-          cellpadding="0"
-        >
-          <tr>
-            <td width="45%">
-              <p>SUBTOTAL</p>
-              <p>TAX</p>
-              <br />
-              <p><strong>TOTAL</strong></p>
-            </td>
-            <td width="55%">
-              <p>$11.45</p>
-              <p>$0.76</p>
-              <br />
-              <p><strong>$12.21</strong></p>
-            </td>
-          </tr>
-        </table>
-        <!-- END PRICING -->
-        <!-- START FOOTER IMG -->
-        <table
-          role="presentation"
-          class="darkmode-transparent"
-          style="
-            width: 600px;
-            border-collapse: collapse;
-            border: 0;
-            border-spacing: 0;
-            line-height: 0;
-          "
-          cellspacing="0"
-          cellpadding="0"
-        >
-          <tr>
-            <td style="padding: 0" align="center">
-              <img
-                src="assets\qdoba fbanner.png"
-                alt="Qdoba banner"
-                width="100%"
-                style="height: auto; display: block"
-              />
-            </td>
-          </tr>
-        </table>
-        <!-- END FOOTER IMG -->
-      </td>
-    </tr>
-  </table>
+                <p>
+                  <strong>Payment Method: Credit Card Visa x-0000</strong>
+                </p>
+                <p>
+                  <strong>ORDER FOR PICKUP</strong><br />
+                  Order ready at <strong>7:08 PM</strong>, TODAY (WEDNESDAY,
+                  1/28/2023)
+                </p>
+                <p>Thanks for your order!</p>
+              </td>
+            </tr>
+          </table>
+          <!-- END ORDER CONFIRMATION -->
+          <!-- START PRICING -->
+          <table
+            class="list-items darkmode-transparent"
+            role="presentation"
+            style="
+              width: 600px;
+              border-collapse: collapse;
+              border: 0;
+              border-spacing: 0;
+            "
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr>
+              <td><p>1 x Burrito Meal Deal</p></td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Grilled Adobo Chicken
+                </p>
+              </td>
+              <td style="width: 20%"><p>(1 x $11.45)</p></td>
+              <td style="width: 10%"><p>=</p></td>
+              <td style="width: 5%"><p>$11.45</p></td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Warm Flour Tortilla
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Half Cilantro and Half Brown Rice
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet"><span>&bull;</span>&ensp;1 x Black Beans</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Pico de Gallo (Mild)
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Shredded Cheese
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Chips on the Side
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Roasted Tomato Salsa (Mild) on
+                  the Side
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="bullet">
+                  <span>&bull;</span>&ensp;1 x Chocolate Chunk Cookie
+                </p>
+              </td>
+            </tr>
+          </table>
+          <table
+            role="presentation"
+            class="total darkmode-transparent"
+            style="
+              width: 600px;
+              border-collapse: collapse;
+              border-bottom: 1px solid #000000;
+              border-spacing: 0;
+              line-height: 0;
+            "
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr>
+              <td width="45%">
+                <p>SUBTOTAL</p>
+                <p>TAX</p>
+                <br />
+                <p><strong>TOTAL</strong></p>
+              </td>
+              <td width="55%">
+                <p>$11.45</p>
+                <p>$0.76</p>
+                <br />
+                <p><strong>$12.21</strong></p>
+              </td>
+            </tr>
+          </table>
+          <!-- END PRICING -->
+          <!-- START FOOTER IMG -->
+          <table
+            role="presentation"
+            class="darkmode-transparent"
+            style="
+              width: 600px;
+              border-collapse: collapse;
+              border: 0;
+              border-spacing: 0;
+              line-height: 0;
+            "
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr>
+              <td style="padding: 0" align="center ">
+                <img
+                  src="https://ci6.googleusercontent.com/proxy/GQ1gvCnMPxIDwn-zYEiSze2FMttNMnQ8ZtLg8NvYzDdfEqOuJC6xiNGPwqfdDZb1xBYRbCES_FNowDpWDAfy6DaY4thWuB3BOkfBZxk=s0-d-e1-ft#https://static.olocdn.net/img/qdoba/email/email-footer.png"
+                  alt="Qdoba"
+                  title="logo"
+                  width="600"
+                  height="125"
+                  style="display: block"
+                />
+              </td>
+            </tr>
+          </table>
+          <!-- END FOOTER IMG -->
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
