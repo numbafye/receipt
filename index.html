@@ -17,7 +17,7 @@
 
       p.bullet {
         margin: 10px 20px 10px 20px;
-        text-indent: 15px;
+        text-indent: 7px;
       }
       .banner {
         padding-bottom: 15px;
@@ -91,8 +91,19 @@
     aria-label="email name"
     lang="en"
     dir="ltr"
-    style="font-size: 12px; width: 100%"
+    style="
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      background-color: #ffffff;
+      font-size: medium;
+      font-size: max(16px, 1rem);
+    "
   >
+    <!--[if mso]>
+          <table width="600" align="center" style="border-spacing: 0;color:#565656;" role="presentation"  
+          <tr>
+            <td style="padding: 0;">
+        <![endif]-->
     <table
       role="presentation"
       class="darkmode-transparent"
@@ -116,6 +127,7 @@
               border-collapse: collapse;
               border: 0;
               border-spacing: 0;
+              font-size: 0.8em;
             "
             cellspacing="0"
             cellpadding="0"
@@ -206,7 +218,7 @@
                 style="
                   text-align: left;
                   border-bottom: black 3px solid;
-                  padding-bottom: 10px;
+                  padding-bottom: 15px;
                 "
               >
                 <p>
@@ -231,6 +243,7 @@
               border-collapse: collapse;
               border: 0;
               border-spacing: 0;
+              font-size: 0.8em;
             "
             cellspacing="0"
             cellpadding="0"
@@ -313,18 +326,19 @@
               border-bottom: 1px solid #000000;
               border-spacing: 0;
               line-height: 0;
+              font-size: 0.8em;
             "
             cellspacing="0"
             cellpadding="0"
           >
             <tr>
-              <td width="45%">
+              <td width="50%">
                 <p>SUBTOTAL</p>
                 <p>TAX</p>
                 <br />
                 <p><strong>TOTAL</strong></p>
               </td>
-              <td width="55%">
+              <td width="50%">
                 <p>$11.45</p>
                 <p>$0.76</p>
                 <br />
@@ -364,5 +378,10 @@
         </td>
       </tr>
     </table>
+    <!--[if mso]>
+          </td>
+        </tr>
+      </table>
+        <![endif]-->
   </div>
 </body>
